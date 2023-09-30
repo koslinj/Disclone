@@ -40,6 +40,8 @@ const NavigationItem = ({ id, imageUrl, name }: NavigationItemProps) => {
         )}>
           <Image
             fill
+            sizes="8vw"
+            priority={true}
             src={imageUrl}
             alt={name}
           />
