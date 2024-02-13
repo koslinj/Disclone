@@ -1,6 +1,6 @@
 "use client"
 
-import { Member, Profile } from "@prisma/client/edge"
+import { Member, Message, Profile } from "@prisma/client/edge"
 import { ChatWelcome } from "./chat-welcome"
 import { useChatQuery } from "@/hooks/use-chat-query"
 import { Loader2, ServerCrash } from "lucide-react"
